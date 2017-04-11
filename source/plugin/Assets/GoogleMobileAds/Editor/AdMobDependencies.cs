@@ -43,7 +43,7 @@ public class AdMobDependencies : AssetPostprocessor
         Google.VersionHandler.InvokeInstanceMethod(
             svcSupport, "DependOn",
             new object[] { "com.google.android.gms", "play-services-ads",
-                           "LATEST" },
+                           "10.0.1" },
             namedArgs: new Dictionary<string, object>() {
                 {"packageIds", new string[] {
                         "extra-google-m2repository",
